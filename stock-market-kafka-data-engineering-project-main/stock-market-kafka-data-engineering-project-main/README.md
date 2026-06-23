@@ -1,32 +1,54 @@
-# Stock Market Kafka Real Time Data Engineering Project
+# Real-Time Stock Market Data Pipeline
 
-## Introduction 
-In this project, you will execute an End-To-End Data Engineering Project on Real-Time Stock Market Data using Kafka.
+## Overview
 
-We are going to use different technologies such as Python, Amazon Web Services (AWS), Apache Kafka, Glue, Athena, and SQL.
+This project demonstrates a real-time data engineering pipeline built using Apache Kafka and AWS cloud services.
+
+The pipeline collects stock market data, streams it through Kafka, stores it in Amazon S3, and enables analytics through AWS Glue and Athena
 
 ## Architecture 
 <img src="Architecture.jpg">
 
-## Technology Used
-- Programming Language - Python
-- Amazon Web Service (AWS)
-1. S3 (Simple Storage Service)
-2. Athena
-3. Glue Crawler
-4. Glue Catalog
-5. EC2
+## Architecture
+
+Stock Market Data
+        ↓
+Kafka Producer
+        ↓
+Kafka Topic
+        ↓
+Kafka Consumer
+        ↓
+Amazon S3
+        ↓
+AWS Glue
+        ↓
+AWS Athena
+
+## Technologies Used
+
+- Python
 - Apache Kafka
+- AWS EC2
+- AWS S3
+- AWS Glue
+- AWS Athena
 
 ## Features
 
 - Real-time stock market data ingestion
-- Event streaming with Kafka
-- Cloud storage with AWS S3
-- Data querying with Athena
+- Event-driven data streaming
+- Cloud-based storage architecture
+- Querying and analytics using Athena
+- Scalable data pipeline design
 
 ## Future Enhancements
 
 - Docker
 - Apache Spark
 - Apache Airflow
+- Real-time dashboards
+
+## Author
+
+Sainivas Katika
