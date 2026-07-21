@@ -7,7 +7,7 @@ This project demonstrates a real-time data engineering pipeline built using Apac
 The pipeline collects stock market data, streams it through Kafka, stores it in Amazon S3, and enables analytics through AWS Glue and Athena
 
 ## Architecture 
-<img src="Architecture.jpg"
+<img src="Architecture.jpg">
 
 ## Architecture
 
