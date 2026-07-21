@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates a real-time data engineering pipeline built using Apache Kafka and AWS cloud services.
+This project demonstrates a real-time data engineering pipeline built using Apache Kafka and AWS cloud services
 
 The pipeline collects stock market data, streams it through Kafka, stores it in Amazon S3, and enables analytics through AWS Glue and Athena
 
