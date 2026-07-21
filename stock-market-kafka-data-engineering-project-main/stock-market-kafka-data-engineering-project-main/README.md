@@ -1,4 +1,4 @@
-# Real-Time Stock Market Data Pipeline
+# Real-Time Stock Market Data Pipelin
 
 ## Overview
 
