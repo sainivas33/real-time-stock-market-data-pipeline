@@ -11,7 +11,7 @@ The pipeline collects stock market data, streams it through Kafka, stores it in 
 
 ## Architecture
 
-Stock Market Data
+Stock Market Dat
         ↓
 Kafka Producer
         ↓
