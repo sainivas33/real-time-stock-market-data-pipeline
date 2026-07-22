@@ -1,6 +1,6 @@
 # Real-Time Stock Market Data Pipeline
 
-## Overview
+## Overvie
 
 This project demonstrates a real-time data engineering pipeline built using Apache Kafka and AWS cloud services.
 
